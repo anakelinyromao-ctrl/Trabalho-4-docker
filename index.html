@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho 4 - Docker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #1e3a8a;
+            color: white;
+            padding: 25px;
+        }
+
+        main {
+            margin: 40px auto;
+            padding: 30px;
+            max-width: 600px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        button {
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #resultado {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Trabalho Acadêmico - Docker</h1>
+        <p>Aplicação Web utilizando contêineres</p>
+    </header>
+
+    <main>
+        <h2>Aplicação Web</h2>
+        <p>
+            Este serviço foi desenvolvido para demonstrar
+            o funcionamento de uma aplicação web em um
+            ambiente operacional Docker, utilizando Nginx.
+        </p>
+
+        <button onclick="verificarServico()">
+            Testar Serviço
+        </button>
+
+        <p id="resultado"></p>
+    </main>
+
+    <footer>
+        <p>Trabalho acadêmico - Análise e Desenvolvimento de Sistemas</p>
+        <p>Desenvolvido por Ana Keliny Romão de Souza</p>
+    </footer>
+
+    <script>
+        function verificarServico() {
+            document.getElementById("resultado").innerText =
+                "Teste realizado com sucesso! A página está funcionando.";
+        }
+    </script>
+
+</body>
+</html>
