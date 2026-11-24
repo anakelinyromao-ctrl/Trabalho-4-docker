@@ -10,7 +10,8 @@ Runbook — Como executar o serviço
 
 2. Baixar o projeto
 
-git clone LINK_DO_REPOSITORIO
+git clone https://github.com/anakelinyromao-ctrl/Trabalho-4-docker.git
+cd Trabalho-4-docker
 cd Trabalho-4-docker
 
 3. Construir a imagem
