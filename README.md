@@ -30,6 +30,7 @@ http://localhost:8080
 6. Verificar o container
 
 docker ps
+
 docker ps -a
 
 7. Consultar logs
